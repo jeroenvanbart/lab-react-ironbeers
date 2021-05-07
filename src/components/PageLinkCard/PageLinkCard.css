@@ -1,0 +1,8 @@
+.card-link-container {
+  color: #000;
+}
+
+.card-link-container h3 {
+  text-transform: uppercase;
+  font-size: var(--sectionHeading);
+}

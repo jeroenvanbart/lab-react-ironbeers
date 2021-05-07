@@ -1,0 +1,10 @@
+.beer-header {
+  background-color: var(--primaryColor);
+  height: 10vh;
+}
+
+.beer-header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+}
