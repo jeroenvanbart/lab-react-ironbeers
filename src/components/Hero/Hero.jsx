@@ -1,9 +1,9 @@
 import React from 'react';
-import './Header.css';
+import './Hero.css';
 
-const Header = () => {
+const Hero = () => {
   return (
-    <section className="flex-row header-container">
+    <section className="flex-row hero-container">
       <div className="flex-column flex-center">
         <h1>Iron Beers</h1>
         <p>The React.js Edition</p>
@@ -12,4 +12,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

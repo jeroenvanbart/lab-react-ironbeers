@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Header from './components/Header/Header';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <main className="flex-row">
-      <Header />
+    <main>
+      <Home />
     </main>
   );
 }
