@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Header from './components/Header/Header';
+
 function App() {
   return (
-    <main className="row">
-      <h1>Iron Beers - React Edition</h1>
+    <main className="flex-row">
+      <Header />
     </main>
   );
 }

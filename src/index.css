@@ -3,6 +3,9 @@
 :root {
   --primaryColor: #3cc4fc;
   --secondaryColor: #555;
+  --sectionHeading: 3em;
+  --sectionSubHeading: 1.5em;
+  --sectionMBSpacing: 2em;
 }
 
 body {
@@ -19,31 +22,36 @@ code {
     monospace;
 }
 
-.row {
+.flex-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.column {
+.flex-column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
 }
 
-.double-column {
+.flex-double-column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 800px) {
-  .column {
+  .flex-column {
     flex: 1;
   }
 
-  .double-column {
+  .flex-double-column {
     flex: 2;
   }
 } ;
