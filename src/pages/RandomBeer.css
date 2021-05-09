@@ -1,0 +1,9 @@
+.randomimage{
+    max-height: 400px;
+}
+
+.beertag{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
